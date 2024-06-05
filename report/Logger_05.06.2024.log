@@ -1,0 +1,44 @@
+2024-06-05 16:56:01,820 : root : INFO : Скрипт запущен
+2024-06-05 16:56:01,821 : src.folders.FolderCreator : INFO : Создана новая папка: C:\Users\ilyab\PycharmProjects\Automate folder cleanup\report\2024
+2024-06-05 16:56:01,821 : src.folders.FolderCreator : INFO : Создана новая папка: C:\Users\ilyab\PycharmProjects\Automate folder cleanup\report\2024\Июнь
+2024-06-05 16:56:01,829 : src.excel.ExcelSheet : DEBUG : Exel-таблица считана
+2024-06-05 16:56:01,829 : src.validators.check_Input_table : DEBUG : Проверка таблицы. Проблемные ячейки: {}
+2024-06-05 16:56:01,858 : root : DEBUG : Данные строки: Номер задачи: RPA-1889, Имя процесса: Название процесса, Аналитик : Байков Илья
+2024-06-05 16:56:01,858 : root : DEBUG : Данные строки: Путь:C:\Users\ilyab\OneDrive\Рабочий стол, Пользовательский формат:ГГГГ, Получение даты:дата создания, Интервал :12 месяцев
+2024-06-05 16:56:01,858 : src.user_format_handlers.work_with_user_format : DEBUG : Формат даты пользователя: ГГГГ
+2024-06-05 16:56:01,858 : src.user_format_handlers.work_with_user_format : DEBUG : Регулярное выражение для пользовательского формата: re.compile('\\d{4}')
+2024-06-05 16:56:01,858 : root : DEBUG : Формат времени для модуля datetime: %Y
+2024-06-05 16:56:01,858 : src.user_format_handlers.work_with_user_format : DEBUG : Патерн с замененными заполнителями и форматом даты : \d{4}
+2024-06-05 16:56:01,910 : src.user_format_handlers.work_with_user_format : DEBUG : Полученные папки и файлы, подходящие под формат: ['C:\\Users\\ilyab\\OneDrive\\Рабочий стол\\2022']
+2024-06-05 16:56:01,919 : src.utils.StoragePeriodFunction : DEBUG : Дата из папки/файла: 2024-06-05 16:52:14.679822
+2024-06-05 16:56:01,919 : src.utils.StoragePeriodFunction : DEBUG : Разница в месяцах: 0
+2024-06-05 16:56:01,919 : root : DEBUG : Файлы на удаление: []
+2024-06-05 16:56:01,919 : root : DEBUG : Данные для формирование отчёта: [['RPA-1889', 'Название процесса', 'Байков Илья', 'C:\\Users\\ilyab\\OneDrive\\Рабочий стол', {'Нет файлов на удаление': CleanResult(status='Выполнено', comment='Список файлов на удаление пуст')}, '05-06-2024 16:56:01', '05-06-2024 16:56:01']]
+2024-06-05 16:56:01,928 : src.excel.ExelReporter : INFO : Отчёт сохранён по пути: C:\Users\ilyab\PycharmProjects\Automate folder cleanup\report\2024\Июнь\Отчет_05.06.xlsx
+2024-06-05 16:56:08,976 : src.email.EmailSender : INFO : Электронное письмо успешно отправлено
+2024-06-05 16:56:49,715 : root : INFO : Скрипт запущен
+2024-06-05 16:56:49,741 : src.excel.ExcelSheet : DEBUG : Exel-таблица считана
+2024-06-05 16:56:49,742 : src.validators.check_Input_table : DEBUG : Проверка таблицы. Проблемные ячейки: {}
+2024-06-05 16:56:49,779 : root : DEBUG : Данные строки: Номер задачи: RPA-1889, Имя процесса: Название процесса, Аналитик : Байков Илья
+2024-06-05 16:56:49,779 : root : DEBUG : Данные строки: Путь:C:\Users\ilyab\OneDrive\Рабочий стол, Пользовательский формат:ГГГГ, Получение даты:дата создания, Интервал :12 месяцев
+2024-06-05 16:56:49,779 : src.user_format_handlers.work_with_user_format : DEBUG : Формат даты пользователя: ГГГГ
+2024-06-05 16:56:49,779 : src.user_format_handlers.work_with_user_format : DEBUG : Регулярное выражение для пользовательского формата: re.compile('\\d{4}')
+2024-06-05 16:56:49,780 : root : DEBUG : Формат времени для модуля datetime: %Y
+2024-06-05 16:56:56,745 : src.user_format_handlers.work_with_user_format : DEBUG : Патерн с замененными заполнителями и форматом даты : \d{4}
+2024-06-05 16:57:31,823 : src.user_format_handlers.work_with_user_format : DEBUG : Полученные папки и файлы, подходящие под формат: ['C:\\Users\\ilyab\\OneDrive\\Рабочий стол\\2022']
+2024-06-05 16:58:21,240 : root : INFO : Скрипт запущен
+2024-06-05 16:58:21,248 : src.excel.ExcelSheet : DEBUG : Exel-таблица считана
+2024-06-05 16:58:21,248 : src.validators.check_Input_table : DEBUG : Проверка таблицы. Проблемные ячейки: {}
+2024-06-05 16:58:21,265 : root : DEBUG : Данные строки: Номер задачи: RPA-1889, Имя процесса: Название процесса, Аналитик : Байков Илья
+2024-06-05 16:58:21,265 : root : DEBUG : Данные строки: Путь:C:\Users\ilyab\OneDrive\Рабочий стол, Пользовательский формат:ГГГГ, Получение даты:дата из имени, Интервал :12 месяцев
+2024-06-05 16:58:21,265 : src.user_format_handlers.work_with_user_format : DEBUG : Формат даты пользователя: ГГГГ
+2024-06-05 16:58:21,265 : src.user_format_handlers.work_with_user_format : DEBUG : Регулярное выражение для пользовательского формата: re.compile('\\d{4}')
+2024-06-05 16:58:21,265 : root : DEBUG : Формат времени для модуля datetime: %Y
+2024-06-05 16:58:21,265 : src.user_format_handlers.work_with_user_format : DEBUG : Патерн с замененными заполнителями и форматом даты : \d{4}
+2024-06-05 16:58:21,295 : src.user_format_handlers.work_with_user_format : DEBUG : Полученные папки и файлы, подходящие под формат: ['C:\\Users\\ilyab\\OneDrive\\Рабочий стол\\2022']
+2024-06-05 16:58:21,296 : src.utils.StoragePeriodFunction : DEBUG : Дата из папки/файла: 2022-01-01 00:00:00
+2024-06-05 16:58:21,296 : src.utils.StoragePeriodFunction : DEBUG : Разница в месяцах: 29
+2024-06-05 16:58:21,296 : root : DEBUG : Файлы на удаление: ['C:\\Users\\ilyab\\OneDrive\\Рабочий стол\\2022']
+2024-06-05 16:58:21,296 : root : DEBUG : Данные для формирование отчёта: [['RPA-1889', 'Название процесса', 'Байков Илья', 'C:\\Users\\ilyab\\OneDrive\\Рабочий стол', {'C:\\Users\\ilyab\\OneDrive\\Рабочий стол\\2022': CleanResult(status='Выполнено', comment='Папка удалена')}, '05-06-2024 16:58:21', '05-06-2024 16:58:21']]
+2024-06-05 16:58:21,306 : src.excel.ExelReporter : INFO : Отчёт сохранён по пути: C:\Users\ilyab\PycharmProjects\Automate folder cleanup\report\2024\Июнь\Отчет_05.06.xlsx
+2024-06-05 16:58:28,112 : src.email.EmailSender : INFO : Электронное письмо успешно отправлено

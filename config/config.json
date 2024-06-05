@@ -1,0 +1,12 @@
+{
+  "table_path": "C:\\Users\\ilyab\\PycharmProjects\\Automate folder cleanup\\Настроечный файл.xlsx",
+  "attached_file_path": "C:\\Users\\ilyab\\PycharmProjects\\Automate folder cleanup\\report",
+  "subject": "RPA - Система роботизации рутинных операций\t/\t\tRPA-2307\tРАЗРАБОТКА",
+  "message": "Отчёт по выполнению скрипта по удалению файлов",
+  "mail_recipient": [
+    "ilya.baykov@rt.ru",
+    "ilya.baykov@rt.ru"
+  ],
+  "mail_sender": "ilya.baykov@rt.ru"
+}
+
