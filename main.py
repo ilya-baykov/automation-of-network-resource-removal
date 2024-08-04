@@ -11,6 +11,7 @@ from src.excel.ExelReporter import *
 from src.email.EmailSender import *
 from src.logger.logger_settings import setup_logger
 from src.folders.FolderCreator import *
+from src.user_format_handlers.replace_folder_path import FolderPathReplacer
 
 if __name__ == '__main__':
     current_time = datetime.datetime.now()
@@ -38,9 +39,14 @@ if __name__ == '__main__':
         sys.exit()
 
     for row in exel_rows:  # Обход всех строк из Exel-таблицы
-        folder_path, regex_pattern, interval = row[3], row[4].strip(), row[5]
+        print(row)
+        regex_pattern, interval = row[4].strip(), row[5]
         date_modification = row[6].lower()
         task_number, process_name, analyst = row[0], row[1], row[2]
+
+        folder_path = FolderPathReplacer(folder_path=row[3]).get_folder_path_replace()
+
+        logger.info("Путь: %s", folder_path)
 
         logger.debug("Данные строки: Номер задачи: %s, Имя процесса: %s, Аналитик : %s",
                      task_number, process_name, analyst)

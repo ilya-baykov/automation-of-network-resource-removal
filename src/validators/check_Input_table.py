@@ -22,7 +22,6 @@ class Validator(ABC):
 
 
 class FolderPathValidator(Validator):
-    """Валидатор для проверки пути к папке."""
 
     def validate(self, value: str) -> bool:
         regex_pattern_path_1 = r"[A-Za-z]:\\(?:[^\\/:*?'<>|\r\n]+\\)*[^\\/:*?'<>|\r\n]*"
@@ -41,6 +40,7 @@ class UserFormatMaskValidator(Validator):
 
     def validate(self, value: str) -> bool:
         try:
+            value = value.strip()
             if "*" in value:
                 pattern = re.compile(r'^\*$|^\*\.[a-zA-Z0-9]+$')
                 # Проверка, соответствует ли значение шаблону

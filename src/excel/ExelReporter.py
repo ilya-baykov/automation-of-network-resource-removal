@@ -11,7 +11,7 @@ class Reporter:
     def __init__(self, output_directory: str):
         self.output_directory = output_directory
         self.filename = os.path.join(self.output_directory,
-                                     f"Отчет_{datetime.today().strftime('%d.%m')}.xlsx")
+                                     f"Отчет_{datetime.today().strftime('%d.%m.%y')}.xlsx")
 
     def generate_report(self, reporter_list: List[List]) -> None:
         """
@@ -30,7 +30,7 @@ class Reporter:
                 headers = [
                     "Номер задачи в JIRA", "Название процесса", "Аналитик",
                     "Путь к папке, которую нужно очищать", "Наименование удаленных папок/ файлов",
-                    "Время начала обработки", "Время окончания обработки", "Статус", "Комментарий"
+                    "Дата/ Время начала обработки", "Дата / Время завершения обработки", "Статус", "Комментарий"
                 ]
                 ws.append(headers)
 

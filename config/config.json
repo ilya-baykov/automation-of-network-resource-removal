@@ -1,12 +1,12 @@
 {
-  "table_path": "C:\\Users\\ilyab\\PycharmProjects\\Automate folder cleanup\\Настроечный файл.xlsx",
-  "attached_file_path": "C:\\Users\\ilyab\\PycharmProjects\\Automate folder cleanup\\report",
-  "subject": "RPA - Система роботизации рутинных операций\t/\t\tRPA-2307\tРАЗРАБОТКА",
-  "message": "Отчёт по выполнению скрипта по удалению файлов",
+  "table_path": "\\\\ks.rt.ru\\dfs\\OCO\\OCO_RPA\\OCO_RPA03(Очистка сетевых ресурсов)\\Настроечный_файл_тест.xlsx",
+  "attached_file_path": "\\\\ks.rt.ru\\dfs\\OCO\\OCO_RPA\\OCO_RPA03(Очистка сетевых ресурсов)\\Отчеты",
+  "subject": "RPA-2307 - Очистка сетевых ресурсов.",
+  "message": "Скрипт по очищению сетевых ресурсов завершил работу. Отчет о работе скрипта вы можете найти на сетевом ресурсе, а также во вложении.",
   "mail_recipient": [
     "ilya.baykov@rt.ru",
-    "ilya.baykov@rt.ru"
+    "alekseeva.margarita@nw.rt.ru"
   ],
-  "mail_sender": "ilya.baykov@rt.ru"
+  "mail_sender": "rpa_prod_robot@rt.ru"
 }
 

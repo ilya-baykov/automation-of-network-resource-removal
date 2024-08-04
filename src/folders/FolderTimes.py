@@ -32,7 +32,8 @@ class FolderCreationTime:
                 creation_time = stat.st_birthtime
             except AttributeError:
                 creation_time = stat.st_ctime
-
+        print (self.path)
+        print (datetime.datetime.fromtimestamp(creation_time))
         return datetime.datetime.fromtimestamp(creation_time)
 
     def get_modification_time(self) -> Union[datetime.datetime, None]:

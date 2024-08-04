@@ -68,7 +68,8 @@ class PatternReplacer:
         pattern = re.escape(pattern)
 
         # Заменяем экранированную звёздочку на нужное выражение
-        pattern = pattern.replace(r'\*', '[^_]+')
+        # pattern = pattern.replace(r'\*', '[^_]+') # прошлый вариант
+        pattern = pattern.replace(r'\*', '.+')
 
         # Заменяем экранированный формат даты на нужное регулярное выражение
         if self.user_date_format and self.re_date_format.pattern:
